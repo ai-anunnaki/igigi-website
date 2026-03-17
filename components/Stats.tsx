@@ -13,7 +13,7 @@ export default function Stats() {
   const [stats, setStats] = useState<StatsData>({
     pageViews: 0,
     downloads: 0,
-    tools: 1
+    tools: 2
   })
 
   useEffect(() => {

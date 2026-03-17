@@ -34,6 +34,24 @@ const tools: Tool[] = [
       '系统性能监控',
       '菜单栏快速访问'
     ]
+  },
+  {
+    id: 'lucisshclient',
+    name: '鸬鹚SSH客户端',
+    nameEn: 'LuciSSHClient',
+    description: '简洁、跨平台的 SSH 客户端，支持多会话标签页、SFTP 文件管理和拖拽文件传输',
+    icon: '🔐',
+    version: '1.0.0',
+    platform: 'macOS / Windows / Linux',
+    github: 'https://github.com/ai-anunnaki/LuciSSHClient',
+    downloadUrl: 'https://github.com/ai-anunnaki/LuciSSHClient/releases/latest',
+    features: [
+      '多会话标签页管理',
+      'SFTP 文件浏览与管理',
+      '拖拽上传，实时进度',
+      '终端目录自动同步',
+      '密码 / 私钥双认证'
+    ]
   }
 ]
 
