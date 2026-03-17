@@ -1,7 +1,7 @@
 'use client'
 
 import Link from 'next/link'
-import { Github } from 'lucide-react'
+import { Github, Heart } from 'lucide-react'
 
 export default function Header() {
   return (
@@ -29,6 +29,13 @@ export default function Header() {
             <Github className="w-4 h-4" />
             GitHub
           </a>
+          <Link
+            href="/sponsor"
+            className="inline-flex items-center gap-1.5 rounded-full bg-pink-50 px-4 py-1.5 text-sm font-semibold text-pink-600 hover:bg-pink-100 transition-colors"
+          >
+            <Heart className="w-3.5 h-3.5" />
+            赞助
+          </Link>
         </nav>
       </div>
     </header>
