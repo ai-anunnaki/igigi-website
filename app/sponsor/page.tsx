@@ -1,6 +1,12 @@
 import { Heart, Github, Coffee } from 'lucide-react'
 
-const sponsors = [
+interface Sponsor {
+  name: string
+  logo?: string
+  url?: string
+}
+
+const sponsors: Sponsor[] = [
   // 未来赞助商展示位
 ]
 
@@ -88,7 +94,7 @@ export default function SponsorPage() {
             </div>
           ) : (
             <div className="flex flex-wrap justify-center gap-4">
-              {sponsors.map((s: any) => (
+              {sponsors.map((s) => (
                 <div key={s.name} className="p-4 rounded-xl border bg-white">
                   {s.name}
                 </div>
