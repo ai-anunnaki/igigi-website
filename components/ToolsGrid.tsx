@@ -18,15 +18,15 @@ interface Tool {
 
 const tools: Tool[] = [
   {
-    id: 'lucibox',
+    id: 'igigibox',
     name: '鸬鹚工具箱',
-    nameEn: 'LuciBox',
+    nameEn: 'IgigiBox',
     description: '功能强大的 macOS 系统工具箱，提供进程管理、文件管理、剪贴板管理和系统监控功能',
     icon: '🐦',
     version: '1.1.0',
     platform: 'macOS 13.0+',
-    github: 'https://github.com/ai-anunnaki/LuciBox',
-    downloadUrl: 'https://github.com/ai-anunnaki/LuciBox/releases/latest',
+    github: 'https://github.com/ai-anunnaki/IgigiBox',
+    downloadUrl: 'https://github.com/ai-anunnaki/IgigiBox/releases/latest',
     features: [
       '进程管理与监控',
       '文件浏览与管理',
@@ -36,15 +36,15 @@ const tools: Tool[] = [
     ]
   },
   {
-    id: 'lucisshclient',
+    id: 'igigissh',
     name: '鸬鹚SSH客户端',
-    nameEn: 'LuciSSHClient',
+    nameEn: 'IgigiSsh',
     description: '简洁、跨平台的 SSH 客户端，支持多会话标签页、SFTP 文件管理和拖拽文件传输',
     icon: '🔐',
     version: '1.0.0',
     platform: 'macOS / Windows / Linux',
-    github: 'https://github.com/ai-anunnaki/LuciSSHClient',
-    downloadUrl: 'https://github.com/ai-anunnaki/LuciSSHClient/releases/latest',
+    github: 'https://github.com/ai-anunnaki/IgigiSsh',
+    downloadUrl: 'https://github.com/ai-anunnaki/IgigiSsh/releases/latest',
     features: [
       '多会话标签页管理',
       'SFTP 文件浏览与管理',
